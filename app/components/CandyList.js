@@ -9,6 +9,7 @@ class CandyList extends React.Component {
 
     componentDidMount(){
         this.props.getCandies()
+        console.log(this.props)
     }
 
 

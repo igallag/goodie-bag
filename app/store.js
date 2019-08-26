@@ -7,6 +7,7 @@ import thunkMiddleware from 'redux-thunk'; // https://github.com/gaearon/redux-t
 
 const initialState = {
   candies: [],
+  selectedCandy: {}
 };
 
 // ACTION DEF
